@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Картошечка</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar" style="background-color: black;"></span>
+                    <span class="icon-bar" style="background-color: black;"></span>
+                    <span class="icon-bar" style="background-color: black;"></span>
+                  </button>
+                <a class="navbar-brand" href="#"><img src="icons/potato_icon.svg" alt="..." /></a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#price">Цены</a></li>
+                    <li><a href="#video">Видео</a></li>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#contact">Оставить заявку</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="headerwrap">
+        <div class="container">
+            <div class="row centered">
+                <h1>Картошечка</h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="price" class="container w">
+        <br><br><br>
+        <h2 class="centered">Цены</h2>
+        <div class="centered">
+            <br><br>
+            <div id="carousel" class="carousel">
+                <!-- Индикаторы -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel" data-slide-to="1"></li>
+                    <li data-target="#carousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img class="carousel-img" src="img/stolov_pot.png" alt="...">
+                        <div class="carousel-caption">
+                            <div class="centered">
+                                <p>Столовый картофель</p>
+                            </div>
+                            <div class="centered">
+                                <h3>142 р</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="carousel-img" src="img/derev_pot.png" alt="...">
+                        <div class="carousel-caption">
+                            <div class="centered">
+                                <p>Деревенский картофель</p>
+                            </div>
+                            <div class="centered">
+                                <h3>129 р</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="carousel-img" src="img/home_pot.png" alt="...">
+                        <div class="carousel-caption">
+                            <div class="centered">
+                                <p>Домашний картофель</p>
+                            </div>
+                            <div class="centered">
+                                <h3>133 р</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Предыдущий</span>
+                </a>
+                <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Следующий</span>
+                </a>
+            </div>
+        </div>
+        <br><br>
+    </div>
+
+    <br><br>
+    <div id="video" class="container w container-black container-full-size">
+        <br><br><br>
+        <h2 class="centered white">Видео</h2>
+        <div class="centered">
+            <iframe class="video-frame" width="760" height="455" src="https://www.youtube.com/embed/yO0LNYBZI-0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <br>
+    </div>
+
+    <div id="about" class="container w">
+        <br>
+        <h2 class="centered">О нас</h2>
+        <br>
+        <div class="centered">
+            <p class="centered p-centrize-left">Если картошка, запеченная в духовке, получается не всегда такой как хочется (сухая или наоборот мокрая, сыроватая внутри, недостаточно удачная по специям) — дайте шанс этому рецепту. </p>
+            <br>
+            <p class="centered p-centrize-left">Такая картошечка по-деревенски стабильно получается очень вкусная, хрустящая снаружи и мягкая, как пюрешка внутри, ароматная — в общем пальчики оближешь. Рецепт у меня простой, но с технологическим секретом, который и решает дело.</p>
+        </div>
+
+        <div id="contact" class="container w container-black container-rounded">
+            <h2 class="centered white">Оставить заявку</h2>
+            <div class="centered-small">
+                <br>
+                <form>
+                    <input type="name" id="name" placeholder="Имя" class="form-control">
+                    <input type="tel" id="tel" placeholder="Номер телефона" class="form-control"><br>
+                    <button type="button" class="btn contact-btn">Оставить заявку</button><br>
+                </form>
+            </div>
+            <br>
+        </div>
+    </div>
+
+    <footer>
+        <br><br>
+        <h2 class="centered footer-header">КАРТОШЕЧКА</h2>
+        <div class="row row-center list-horizontal-center">
+            <a class="col-xs-2 btn btn-social-icon btn-vk" href=""> </a>
+            <a class="col-xs-2 btn btn-social-icon btn-facebook" href=""> </a>
+            <a class="col-xs-2 btn btn-social-icon btn-twitter" href=""> </a>
+            <a class="col-xs-2 btn btn-social-icon btn-instagram" href=""> </a>
+        </div>
+        <br>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

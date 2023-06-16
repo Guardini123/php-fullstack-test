@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+    background-color: #FFFFFF;
+    ;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: #343434;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+
+    margin-top: 70px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 112px;
+    line-height: 137px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    word-wrap: break-word;
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 73px;
+    border: 0px;
+    border-bottom: 10px solid #ECBA46;
+    width: fit-content;
+    float: none;
+    margin: 0 auto;
+}
+
+.white {
+    color: #FFFFFF;
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 70px;
+    line-height: 85px;
+    color: #ECBA46;
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    margin-bottom: 40px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.centered-small {
+    text-align: center;
+    max-width: 300px;
+    margin: auto;
+}
+
+a {
+    color: #FFFFFF;
+}
+
+a:hover, a:focus{
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0px;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.navbar {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.navbar-toggle{
+    background-color: white;
+}
+
+.navbar-inverse {
+    --bs-bg-opacity: 1;
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+.navbar-inverse-color {
+    --bs-bg-opacity: 1;
+    background: #35312D;
+    border-color: transparent !important;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    border: 0px;
+    border-bottom: 4px solid #ECBA46;
+}
+.navbar-brand > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#headerwrap {
+    background: url(../img/potato_main_img.png) no-repeat center top;
+    margin-top: -70px;
+    padding-top: 120px;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 700px;
+    width: 100%;
+
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#headerwrap h1{
+    margin-top: 100px;
+}
+
+.w {
+    padding-top: 35px;
+}
+
+.carousel {
+    margin: auto;
+    width: fit-content;
+}
+
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    height: 450px;
+}
+
+.container-black {
+    background-color: #35312D;
+}
+
+.container-rounded{
+    border-radius: 20px;
+}
+
+.container-full-size{
+    border-radius: 20px;
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.video-frame{
+    margin: 90px 0px;
+}
+
+#about {
+    background: url(../img/girl_pot.png) no-repeat center top;
+    margin-top: 70px;
+    padding-top: 120px;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 800px;
+    width: 100%;
+
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.p-centrize-left{
+    margin: auto;
+    max-width: 800px;
+    padding-left: 400px;
+    text-align: left;
+}
+
+#contact{
+    max-width: 800px;
+}
+
+#contact h2{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+    border: 0px;
+    border-bottom: 0px;
+    width: fit-content;
+    float: none;
+}
+
+.form-control{
+    margin-bottom: 20px;
+    background-color: transparent !important;
+    color: white;
+}
+
+.contact-btn{
+    background-color: #ECBA46;
+    border-radius: 130px;
+    border-color: transparent;
+    padding: 10px 30px;
+}
+
+
+.contact-btn:hover, .contact-btn:focus{
+    background-color: #d3b161;
+}
+
+footer {
+    max-width: 500px;
+    margin: auto;
+}
+
+.footer-header{
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 51px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #35312D;
+
+    border: 0px;
+    border-bottom: 0px;
+}
+
+footer > h2 {
+    margin-bottom: 16px;
+}
+
+.list-horizontal-center{
+    width: fit-content;
+    margin: auto;
+}
+
+a.btn{
+    height: 60px;
+    padding: 0px;
+    width: 60px;
+}
+
+.btn-vk{
+    background: url(../icons/ic_vk_not_active.svg) no-repeat center center;
+}
+
+.btn-facebook{
+    background: url(../icons/ic_facebook_not_active.svg) no-repeat center center;
+}
+
+.btn-twitter{
+    background: url(../icons/ic_twitter_not_active.svg) no-repeat center center;
+}
+
+.btn-instagram{
+    background: url(../icons/ic_instagram_not_active.svg) no-repeat center center;
+}
+
+.btn-vk:hover, .btn-vk:focus{
+    background: url(../icons/ic_vk_active.svg) no-repeat center center;
+}
+
+.btn-facebook:hover, .btn-facebook:focus{
+    background: url(../icons/ic_facebook_active.svg) no-repeat center center;
+}
+
+.btn-twitter:hover, .btn-twitter:focus{
+    background: url(../icons/ic_twitter_active.svg) no-repeat center center;
+}
+
+.btn-instagram:hover, .btn-instagram:focus{
+    background: url(../icons/ic_instagram_active.svg) no-repeat center center;
+}
+
+@media only screen and (max-width: 830px) {
+
+    h1{
+        text-align: left;
+        margin: 40px;
+        max-width: 260px;
+    }
+
+    .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+        height: 250px;
+    }
+
+    .container-full-size{
+        border-radius: 20px;
+        width: auto;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .video-frame{
+        width: 350px;
+        height: 250px;
+        margin: 40px 0px;
+    }
+
+    .p-centrize-left{
+        margin: 10px;
+        max-width: 800px;
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    #about {
+        background: url(../img/girl_pot_opacity.png) no-repeat center top;
+        margin-top: 70px;
+        padding-top: 120px;
+        text-align: center;
+        background-attachment: relative;
+        background-position: center center;
+        min-height: 800px;
+        width: 100%;
+
+        background-size: 100%;
+
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+
