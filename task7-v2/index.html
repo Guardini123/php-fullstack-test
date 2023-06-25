@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="mobile-menu" class="mobile-menu">
+        <div class="horizontal-wrapper space-between">
+            <button id="button-mobile-menu-close-left" onclick="closeMenuFunction()" class="button-mobile-menu"></button>
+            <p class="mobile-header">Menu</p>
+            <button id="button-mobile-menu-close-right" class="button-mobile-menu" style="visibility: hidden;"></button>
+        </div>
+        <nav class="vertical-wrapper">
+            <a onclick="closeMenuFunction()" href="#header">Home</a>
+            <a onclick="closeMenuFunction()" href="#about">About</a>
+            <a onclick="closeMenuFunction()" href="#skills">Skills</a>
+            <a onclick="closeMenuFunction()" href="#protfolio">Portofolio</a>
+            <a onclick="closeMenuFunction()" href="#footer">Contact</a>
+        </nav>
+    </div>
+
+    <div id="mobile-top-bar" class="mobile-top-bar">
+        <div class="mobile-top-bar-wrapper">
+            <button id="button-mobile-menu-left" onclick="openMenuFunction()" class="button-mobile-menu"></button>
+            <p class="mobile-header">Portofolio</p>
+            <button id="button-mobile-menu-right" class="button-mobile-menu" style="visibility: hidden;"></button>
+        </div>
+    </div>
+
+    <div class="top-bar">
+        <div class="top-bar-wrapper">
+            <p>Portofolio</p>
+            <nav>
+                <a href="#header">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#protfolio">Portofolio</a>
+                <a href="#footer">Contact</a>
+            </nav>
+        </div>
+    </div>
+
+    <header id="header">
+        <div class="main-wrapper">
+            <h1>Hi, It’s Théophile Seyrig</h1>
+            <p>Designer from Porto, Portugal</p>
+            <a href="">Latest works</a>
+        </div>
+    </header>
+    <div class="page-content" id="about">
+        <div class="main-wrapper">
+            <h2>About</h2>
+            <p>
+                Lorem ipsum dolor sit amet, Arcu, sed nisi, mi, arcu libero phasellus tincidunt. Rhoncus, diam penatibus aliquet tellus, in rutrum augue. Pellentesque senectus risus consectetur et sed purus sed. Consectetur adipiscing elit. Egestas porttitor nulla nulla egestas odio pharetra egestas aliquet mollis. 
+<br><br>
+                Arcu, sed nisi, mi, arcu libero phasellus tincidunt. Rhoncus, diam penatibus aliquet tellus, in rutrum augue. Pellentesque senectus risus consectetur et sed purus sed. Consectetur adipiscing elit. Egestas porttitor nulla nulla egestas odio pharetra egestas aliquet mollis. diam penatibus aliquet tellus, in rutrum augue. Pellentesque.
+            </p>
+        </div>
+    </div>
+    <div class="page-content" id="skills">
+        <div class="main-wrapper">
+            <h2>Skills</h2>
+            <div class="horizontal-wrapper skills-photo-wrapper">
+                <img src="img/profile-picture.png" alt="Main photo">
+                <div class="skills-wrapper vertical-wrapper space-between">
+                    <div class="skills-header horizontal-wrapper">
+                        <p class="label">Profile</p>
+                        <p>UI / UX Engineer, Front-end Developer</p>
+                    </div>
+                    <div class="skills-content vertical-wrapper">
+                        <div class="horizontal-wrapper">
+                            <label for="ux-research">UX Research</label>
+                            <progress id="ux-research" max="100" value="85"></progress>
+                        </div>
+                        <div class="horizontal-wrapper">
+                            <p class="label">Tools</p>
+                            <p>Paper, Pen, Balsamiq</p>
+                        </div>
+                        <div class="horizontal-wrapper">
+                            <label for="ui-design">UI Design</label>
+                            <progress id="ui-design" max="100" value="80"></progress>
+                        </div>
+                        <div class="horizontal-wrapper">
+                            <p class="label">Tools</p>
+                            <p>Adobe PS, AI, XD, Figma, InVision</p>
+                        </div>
+                        <div class="horizontal-wrapper">
+                            <label for="front-end-dev">Front-end Dev</label>
+                            <progress id="front-end-dev" max="100" value="70"></progress>
+                        </div>
+                        <div class="horizontal-wrapper">
+                            <p class="label">Tools</p>
+                            <p>HTML, CSS, JS, Bootstrap, React</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page-content" id="protfolio">
+        <div class="main-wrapper">
+            <h2>Portofolio</h2>
+            <div id="carousel" class="carousel">
+                <div id="ux-research-carousel-content" class="carousel-content vertical-wrapper">
+                    <h3 class="carousel-content-header">UX Research</h3>
+                    <div class="horizontal-wrapper carousel-item">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac dictum nibh nam odio cursus id. Diam massa semper a tincidunt cursus ultricies lectus eget urna.</p>
+                        <div class="horizontal-wrapper image-collection">
+                            <div class="vertical-wrapper image-collection-column">
+                                <img src="img/first_pic.png" alt="first pic">
+                                <img src="img/second-pic.png" alt="second pic">
+                            </div>
+                            <div class="vertical-wrapper image-collection-column">
+                                <img src="img/third-pic.png" alt="third pic">
+                                <img src="img/fourth-pic.png" alt="fourth pic">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="ui-design-carousel-content" class="carousel-content vertical-wrapper">
+                    <h3 class="carousel-content-header">Ui Design</h3>
+                    <div class="horizontal-wrapper carousel-item">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad omnis aliquid amet necessitatibus veniam quidem alias ratione assumenda totam rem consequatur quasi similique porro modi, nihil recusandae dolore aliquam tempora!</p>
+                        <div class="horizontal-wrapper image-collection">
+                            <div class="vertical-wrapper image-collection-column">
+                                <img src="img/first_pic.png" alt="first pic">
+                                <img src="img/second-pic.png" alt="second pic">
+                            </div>
+                            <div class="vertical-wrapper image-collection-column">
+                                <img src="img/third-pic.png" alt="third pic">
+                                <img src="img/fourth-pic.png" alt="fourth pic">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="front-end-dev-carousel-content" class="carousel-content vertical-wrapper">
+                    <h3 class="carousel-content-header">Front-end Dev</h3>
+                    <div class="horizontal-wrapper carousel-item">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus iure temporibus sed? Veritatis cumque illo deserunt ab eaque quod at aut, facere velit et earum, officia iure nihil, reprehenderit quas.</p>
+                        <div class="horizontal-wrapper image-collection">
+                            <div class="vertical-wrapper image-collection-column">
+                                <img src="img/first_pic.png" alt="first pic">
+                                <img src="img/second-pic.png" alt="second pic">
+                            </div>
+                            <div class="vertical-wrapper image-collection-column">
+                                <img src="img/third-pic.png" alt="third pic">
+                                <img src="img/fourth-pic.png" alt="fourth pic">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-buttons">
+                    <button id="carousel-button-back" onclick="showPreviousCorouselElement()" class="carousel-button"></button>
+                    <button id="carousel-button-forward" onclick="showNextCorouselElement()" class="carousel-button"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+        <div class="main-wrapper">
+            <h2>Get in Touch</h2>
+            <div class="links-wrapper horizontal-wrapper">
+                <ul class="horizontal-wrapper">
+                   <li><a href="">Dribbble</a></li> 
+                   <li><a href="">Behance</a></li> 
+                   <li><a href="">CodePen</a></li> 
+                   <li><a href="">GitHub</a></li> 
+                   <li><a href="">Medium</a></li> 
+                </ul>
+                <ul class="horizontal-wrapper">
+                    <li><a href="">LinkedIn</a></li> 
+                    <li><a href="">Facebook</a></li> 
+                    <li><a href="">Instagram</a></li> 
+                    <li><a href="">Twitter</a></li> 
+                 </ul>
+                 <ul class="horizontal-wrapper">
+                    <li><a href="mailto: seyrig@mailme.com">seyrig@mailme.com</a></li> 
+                    <li><a href="tel:+556645665544">+ 55 6645 665544</a></li> 
+                 </ul>
+            </div>
+            <button id="button-up" onclick="topFunction()" class="button-to-top"></button>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
